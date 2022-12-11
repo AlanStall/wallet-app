@@ -1,6 +1,6 @@
 export default {
 
-    // comentário
+    // comentario
     
     COLORS: {
         TEXT: '#969CB2',
