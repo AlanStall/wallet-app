@@ -1,4 +1,7 @@
 export default {
+
+    // comentario
+    
     COLORS: {
         TEXT: '#969CB2',
         GRAY: '#999591',
