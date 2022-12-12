@@ -20,6 +20,10 @@ import { DMSerifDisplay_400Regular } from "@expo-google-fonts/dm-serif-display";
 
 import COLORS from "./src/styles/theme";
 
+import { Login } from "./src/screens/login/login";
+
+
+
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
@@ -63,8 +67,7 @@ export default function App() {
     <ThemeProvider theme={COLORS}>
       <View style={styles.container} onLayout={onLayoutRootView}>
         {/* <AppSrc /> */}
-        <Text>Hey there!!!!!!!!!!!!!!!!!</Text>
-        <Text>SEGUNDO TEXTO</Text>
+        <Login />        
       </View>
     </ThemeProvider>
   );
