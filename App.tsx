@@ -22,6 +22,7 @@ import COLORS from "./src/styles/theme";
 
 import { Login } from "./src/screens/login/login";
 
+// comentário incluido hoje 20221412
 
 
 SplashScreen.preventAutoHideAsync();
